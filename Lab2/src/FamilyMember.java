@@ -5,8 +5,8 @@ public class FamilyMember extends Contact {
 	
 	public FamilyMember(String name, String phoneNumber, String relationship, String location) {
 		super(name, phoneNumber);
-		this.setRelationship(relationship);
-		this.setLocation(location);
+		this.relationship = relationship;
+		this.location = location;
 	}
 	public String toString() {
 		return "(" + relationship + ", " + location + ")";
